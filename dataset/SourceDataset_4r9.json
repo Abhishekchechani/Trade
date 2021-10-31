@@ -1,0 +1,72 @@
+{
+	"name": "SourceDataset_4r9",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "elfs"
+			},
+			"columnDelimiter": ",",
+			"rowDelimiter": "\n",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "#",
+				"type": "String"
+			},
+			{
+				"name": "Name",
+				"type": "String"
+			},
+			{
+				"name": "Type 1",
+				"type": "String"
+			},
+			{
+				"name": "Type 2",
+				"type": "String"
+			},
+			{
+				"name": "HP",
+				"type": "String"
+			},
+			{
+				"name": "Attack",
+				"type": "String"
+			},
+			{
+				"name": "Defense",
+				"type": "String"
+			},
+			{
+				"name": "Sp. Atk",
+				"type": "String"
+			},
+			{
+				"name": "Sp. Def",
+				"type": "String"
+			},
+			{
+				"name": "Speed",
+				"type": "String"
+			},
+			{
+				"name": "Generation",
+				"type": "String"
+			},
+			{
+				"name": "Legendary",
+				"type": "String"
+			}
+		]
+	}
+}
